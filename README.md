@@ -1,2 +1,2 @@
-# code-tricks
+# Code snippets repository
 Code Snippets
