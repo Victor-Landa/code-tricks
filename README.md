@@ -1,2 +1,2 @@
 # Code snippets
-Commonly used codes
+Commonly used code fragments
