@@ -1,2 +1,2 @@
-# Code snippets repository
-Code Snippets
+# Code snippets
+Commonly used codes
