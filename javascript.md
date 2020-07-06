@@ -10,3 +10,7 @@ for(let i = 0; i < array.length; i++) {
 
 return sum;
 ```
+Validate email with regex
+```javascript
+!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(email);
+```
