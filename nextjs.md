@@ -48,3 +48,10 @@ import Link from 'next/link';
 <Link href="/">Home</Link>
 <Link href="/contact">Contact</Link>
 ```
+
+Routing - Redirect
+```jsx
+import Router from 'next/router';
+
+Router.push('/');
+```
