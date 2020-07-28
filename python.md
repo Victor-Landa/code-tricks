@@ -72,3 +72,11 @@ randint(1, 100)
 from random import *
 randint(1, 10)
 ```
+
+User input
+```python
+x = input("Convert °C to °F: ")
+user_input = float(x)
+result = user_input * 1.8000 + 32.00
+print('°F:', result)
+```
