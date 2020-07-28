@@ -50,3 +50,10 @@ d = d + 1 # => 19
 e = 20
 e += 1 # => 21
 ```
+
+Output
+```python
+name = 'Name'
+country = 'Country'
+print(name, country, 'Age') # => Name Country Age
+```
