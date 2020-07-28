@@ -57,3 +57,18 @@ name = 'Name'
 country = 'Country'
 print(name, country, 'Age') # => Name Country Age
 ```
+
+Libraries
+```python
+# Import library name => Usage lib_name.lib_function
+import random
+random.randint(1, 5)
+
+# Import a function
+from random import randint
+randint(1, 100)
+
+# Import all library functions
+from random import *
+randint(1, 10)
+```
