@@ -1,3 +1,4 @@
+Variables
 ```python
 # Dynamic typing
 x = 100
