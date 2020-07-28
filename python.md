@@ -30,3 +30,23 @@ Invalid Casting
 my_name = "Victor"
 my_name = int(my_name) # => ValueError: invalid literal for int() with base 10: 'Victor'
 ```
+
+Operators 
+```python
+a = 'Basic'
+b = 'String'
+a + b # BasicString
+
+c = 'Victor'
+c * 5 # => VictorVictorVictorVictorVictor
+```
+
+Reassinging values
+```python
+# Reassingning values
+d = 18
+d = d + 1 # => 19
+
+e = 20
+e += 1 # => 21
+```
