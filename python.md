@@ -80,3 +80,33 @@ user_input = float(x)
 result = user_input * 1.8000 + 32.00
 print('°F:', result)
 ```
+
+Conditionals
+```python
+x = 44
+y = 50
+
+x > y # False
+x < y # True
+x >= y # False
+x <= y # True
+x == y # False
+x != y # True
+
+x <= y and y >= x # True
+x > y or y > x # True
+```
+
+If / Elif / Else
+```python
+import random
+
+a = random.randint(1, 5)
+if a == 1:
+  print('Random number is one')
+elif a == 2:
+  print('Random number is two')
+else:
+  print('Random number between 3 and 5')
+print(a)
+```
