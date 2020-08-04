@@ -110,3 +110,22 @@ else:
   print('Random number between 3 and 5')
 print(a)
 ```
+
+Loops
+```python
+# Forloop
+import random
+
+x = 0
+
+for i in range(10):
+	x += random.randint(1, 3)
+  
+# While
+x = random.randint(1, 50)
+
+while x != 6:
+	x = random.randint(1, 49)
+  # continue
+  # break
+```
