@@ -129,3 +129,56 @@ while x != 6:
   # continue
   # break
 ```
+
+List
+```python
+numbers = [13, 45, 98, 1, 34]
+
+# get firsy item
+print(numbers[0])
+
+# get last item
+print(numbers[-1])
+
+# add item
+numbers.append(12)
+print(numbers) # => [13, 45, 98, 1, 34, 12]
+
+# remove first value of
+numbers.remove(45) # => [13, 98, 1, 34, 12]
+print(numbers)
+
+# remove by index
+numbers.pop(3)
+print(numbers) # => [13, 98, 1, 12]
+
+# replace by index
+numbers[0] = 5
+print(numbers) # => [5, 98, 1, 12]
+
+# collection length
+print(len(numbers)) # => 4
+
+# get index
+print(numbers.index(1)) # => 2
+
+# check if value exist in the list, return true or false
+print(98 in numbers) # => True
+print(100 in numbers) # => False
+
+# sort in ascending
+numbers.sort()
+print(numbers)
+
+# sort reverse
+numbers.reverse()
+print(numbers)
+
+# iterate each element
+for number in numbers:
+  print(number)
+
+# iterate by index
+for i in range(len(numbers)):
+  print(i, numbers[i])
+```
