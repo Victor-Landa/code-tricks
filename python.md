@@ -182,3 +182,61 @@ for number in numbers:
 for i in range(len(numbers)):
   print(i, numbers[i])
 ```
+
+Strings
+```python
+py_string = 'Hello'
+print(len(py_string)) # => 5
+
+# get first character
+print(py_string[2]) # => l
+
+# loop through string
+for letter in py_string:
+	print(letter)
+
+# lowercase and uppercase
+print(py_string.lower(), py_string.upper(), py_string.capitalize()) # => hello HELLO Hello
+
+# string starts with returns boolean
+print(py_string.startswith('H')) # => True
+
+# string ends with returns boolean
+print(py_string.endswith('o')) # => True
+
+# string is alphabetic?
+print(py_string.isalpha()) # => True
+
+# string is digit?
+print(py_string.isdigit()) # => False
+
+# string is alpha numeric?
+print(py_string.isalnum()) # => True
+
+# string is upper?
+print(py_string.isupper()) # => False
+
+# string is lowe?
+print(py_string.islower ()) # => False
+
+# string strip // remove white spaces at start and end
+print(py_string.strip()) # => Hello
+
+names = "Victor,Paola,Mica,Chopper,Ivan"
+list_names = names.split(',')
+list_names_join = ' '.join(list_names)
+print(list_names_join) # => Victor Paola Mica Chopper Ivan
+```
+
+Tuples
+```python
+main_tupple = (9, 8 , 6)
+print(main_tupple)
+
+#  convert list to tupple
+years = [2020, 2021, 2022, 2022]
+years_tupple = tuple(years)
+
+# type of
+print(type(years))
+```
