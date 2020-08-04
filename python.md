@@ -193,7 +193,7 @@ print(py_string[2]) # => l
 
 # loop through string
 for letter in py_string:
-	print(letter)
+  print(letter)
 
 # lowercase and uppercase
 print(py_string.lower(), py_string.upper(), py_string.capitalize()) # => hello HELLO Hello
