@@ -1,4 +1,4 @@
-Get the sizes in the variants with an associated URL.
+Get the sizes on the variants with an associated URL.
 ```liquid
 {% assign product_sizes = '' %}
 {% assign product_variants_shareable_url = '' %}
