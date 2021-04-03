@@ -19,3 +19,12 @@ Conditional (Ternary) Operator (only one condition)
 ```javascript
 error && 'There was an error'
 ```
+String to camelCase
+```javascript
+function toCamelCase(str) {
+  const regExp =/[-_ ]\w/ig;
+  return str.replace(regExp, (match) => {
+    return match[1].toUpperCase();
+  });
+}
+```
