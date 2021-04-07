@@ -28,3 +28,8 @@ function toCamelCase(str) {
   });
 }
 ```
+
+Dispatch window resize event
+```javascript
+window.dispatchEvent(new Event('resize'));
+```
