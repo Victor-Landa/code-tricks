@@ -22,3 +22,26 @@ Get the sizes on the variants with an associated URL.
 	{{ size }}
 {% endfor%}
 ```
+Filter products by tag groups
+```liquid
+{% assign tag_groups = '' %}
+{% for tag in collection.all_tags %}
+	{% if tag contains '_' %}
+  	{% assign group = tag | split: '_' | first %}
+  	{% assign tag_groups = tag_groups | append: group | append: ',' %}
+	{% endif %}
+{% endfor %}
+
+{% assign tag_groups = tag_groups | split: ',' | uniq | sort %}
+
+
+{% for group in tag_groups %}
+	{% for tag in collection.all_tags %}
+  	{% assign tag_parts = tag | split: '_' %}
+  	{% assign tag_group = tag_parts | first %}
+  	{% if tag_group == group %}
+			<a {% if current_tags contains tag %}class="active"{% endif %} href="{{ routes.collections_url }}/{% if collection.handle != blank %}{{ collection.handle }}{% else %}all{% endif %}/{{ tag | handleize }}">{{ tag }}</a>
+  	{% endif %}
+	{% endfor %}
+{% endfor %}
+```
