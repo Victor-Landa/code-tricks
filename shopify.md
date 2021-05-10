@@ -22,7 +22,7 @@ Get the sizes on the variants with an associated URL.
 	{{ size }}
 {% endfor%}
 ```
-Filter products by tag groups
+Filter products by tag groups.
 ```liquid
 {% assign tag_groups = '' %}
 {% for tag in collection.all_tags %}
