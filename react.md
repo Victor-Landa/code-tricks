@@ -1,3 +1,8 @@
+Create react app with TypeScript
+```bash
+npx create-react-app . --template typescript
+```
+
 Redirect with history hook.
 ```javascript
 import { useHistory } from 'react-router-dom';
