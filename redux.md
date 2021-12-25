@@ -11,7 +11,7 @@ useEffect(() => {
   exampleFunction();
 }, []);
 ```
-_Important: We can't use useEffect when we have a return on our component._
+_Important: We can't use useEffect when we have a return in our component._
 
 Access to state from components.
 ```javascript
